@@ -1,0 +1,22 @@
+Two-dimensional spectroscopy of semiconductor nanocrystals: Traditional optical spectroscopy gives a spectrum consisting of some measured quantity as a function of excitation or emission wavelength. However, much information is still hidden within the spectrum. Two-dimensional spectroscopy is a type of spectroscopy in which time-time or frequency-frequency correlations are measured; one measures correlations between the response at different frequencies within the one-dimensional spectrum. In this project, a student will participate in performing two-dimensional spectra of semiconductor nanocrystal quantum dots, first as a means of characterizing our two-dimensional spectrometer, and then as a means of probing exciton-exciton interactions in semiconductor nanocrystals.
+
+研究背景与意义：
+
+传统的一维光谱以所测体系发出或吸收光子的波长为自变量，而二维光谱用三束激光脉冲分别间隔相干时间和粒子数时间入射待测体系后采集其三阶非线性光学响应，它以相干时间和粒子数时间或两者经傅里叶变换后得到的频率为自变量，刻画体系的光学响应. 二维光谱可以克服传统一维光谱存在的各种局限，发掘出更深层、更丰富的信息. 例如，传统一维光谱在波峰密集的情况下存在波峰交叠的问题，不利于波峰的分析，而二维光谱将光谱的频域拓展到二维，从而可以更为清晰地分辨各个波峰；传统一维光谱往往仅能反映体系的能级分布情况，而在二维光谱中，其对角峰反映了体系的能级，而其非对角峰还可反映各能级之间的耦合关系；传统一维光谱需要在时间分辨和频率分辨之间寻求妥协，即，使用更短的脉冲意味着更宽的频域宽度，而二维光谱在采用超快激光脉冲的情况下仍可具有优良的频率分辨能力. 作为一种相关研究相对成熟的体系，微晶量子点可以作为典型的测试案例来检验新建二维光谱系统的工作效果和性能，用二维光谱也可以研究微晶量子点中激子-激子相互作用等非线性过程.
+
+主要内容（含技术指标）及目标：
+
+协助搭建二维光谱所需的实验装置.
+采集微晶量子点的二维光谱.
+分析二维光谱中对角峰和非对角峰的位置、增宽等信息，从而一方面检验二维光谱系统的工作效果和性能，另一方面得到微晶量子点中的激子-激子相互作用等信息.
+
+研究进度安排：
+
+2020.11.09-2021.01.10 编写用于控制线扫描相机的 LabVIEW 程序
+2021.01.11-2021.02.28 文献调研与综述写作
+2021.03.01-2021.04.05 实验，采集数据
+2021.04.01-2021.05.02 数据处理分析和毕业论文写作
+2021.05.03-2021.05.09 毕业论文评阅及修改
+2021.05.10-2021.05.16 毕业论文提交及查重
+2021.05.17-2021.05.23 毕业论文定终稿
+2021.05.24-2021.06.06 毕业答辩

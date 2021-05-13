@@ -1,0 +1,22 @@
+课题进展情况（含已取得的阶段性成果）：
+1、阅读了部分文献；
+2、协助了完成了用于二维光谱数据采集和处理的 LabVIEW 程序，并且初步了解了程序工作的逻辑，参与的工作包括完成了用LabVIEW调用控制线扫描相机的动态链接库的 Demo 程序、光谱数据移动平均子程序的性能优化和一维傅里叶逆变换子程序的性能优化等。基于所修改的子程序中的缺陷，对程序的其他部分的优化工作提出了建议。
+
+1. Literature research;
+2. Assisted with LabVIEW programming for data collecting and processing, including providing the demo for calling line-scanning camera controlling dll with LabVIEW, optimization of the moving average sub-VI, and optimization of the inverse Fourier transform sub-VI.
+
+存在的问题及解决思路：
+存在的问题：目前尚未正式开始数据的采集，总体进度滞后。
+解决思路：加快节奏，多花时间。
+
+Problem: behind the schedule.
+Solution: hurry up and spend more time.
+
+下一步的工作计划和研究内容：
+1、进一步优化程序；
+2、开始正式实验；
+3、撰写论文。
+
+1. LabVIEW pramgramme further optimization;
+2. Beginning the experiment;
+3. Writing the thesis.

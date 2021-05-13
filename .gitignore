@@ -274,3 +274,9 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# Manuals, data sheets, drawings and softwares of equipments
+/Equipments
+
+# References
+/References
