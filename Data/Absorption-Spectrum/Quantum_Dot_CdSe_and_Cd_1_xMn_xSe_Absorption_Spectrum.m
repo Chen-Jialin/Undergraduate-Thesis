@@ -20,6 +20,24 @@ ax1 = axes(t);
 L1 = plot(ax1, energy, absorbance_CdSe, 'linewidth', 2);
 hold on
 L2 = plot(ax1, energy, absorbance_Cd_1_xMn_xSe, 'linewidth', 2);
+xline(1.96, '--')
+yline(0.262073827159736, '--')
+text(1.96, 0.262073827159736, {'634 nm            ', '(1.96 eV, 0.262)'}, 'HorizontalAlignment', 'left', 'VerticalAlignment', 'top', 'fontsize', 8)
+xline(2.41, '--')
+yline(0.304459308346951, '--')
+text(2.41, 0.304459308346951, {' 516 nm', '(2.41 eV, 0.304)'}, 'HorizontalAlignment', 'center', 'VerticalAlignment', 'bottom', 'fontsize', 8)
+annotation('arrow', [0.333, 0.333], [0.39, 0.29])
+text(1.96, 0.5, '1S_{3/2}->1S', 'HorizontalAlignment', 'center', 'VerticalAlignment', 'bottom', 'fontsize', 12)
+annotation('arrow', [0.37, 0.37], [0.34, 0.29])
+text(2.1, 0.4, '2S_{3/2}->1S', 'HorizontalAlignment', 'center', 'VerticalAlignment', 'bottom', 'fontsize', 12)
+annotation('arrow', [0.55, 0.55], [0.49, 0.44])
+text(2.4, 0.75, '1P_{3/2}->1P', 'HorizontalAlignment', 'center', 'VerticalAlignment', 'bottom', 'fontsize', 12)
+annotation('arrow', [0.7, 0.7], [0.61, 0.56])
+text(2.7, 1, '2S_{3/2}->1S', 'HorizontalAlignment', 'center', 'VerticalAlignment', 'bottom', 'fontsize', 12)
+annotation('arrow', [0.558, 0.558], [0.24, 0.29])
+text(2.45, 0.2, '1S_{3/2}->1S', 'HorizontalAlignment', 'center', 'VerticalAlignment', 'top', 'fontsize', 12)
+annotation('arrow', [0.78, 0.78], [0.34, 0.39])
+text(2.90, 0.4, '2S_{3/2}->1S', 'HorizontalAlignment', 'center', 'VerticalAlignment', 'top', 'fontsize', 12)
 ax1.XLabel.String = 'Energy / eV';
 ax1.YLabel.String = 'Absorbance';
 ax1.FontSize = 14;
