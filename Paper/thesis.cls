@@ -323,7 +323,7 @@
 }
 % 目录 Content table
 \RequirePackage{titletoc} % 目录 Content
-\titlecontents{chapter}[3.8em]{}{\contentslabel{3.8em}}{}{\titlerule*{-}\contentspage}
+\titlecontents{chapter}[3.8em]{}{\contentslabel{3.8em}}{\hspace*{-3.8em}}{\titlerule*{-}\contentspage}
 \titlecontents{section}[3.8em]{}{\contentslabel{2.3em}}{}{\titlerule*{-}\contentspage}
 \titlecontents{subsection}[6.1em]{}{\contentslabel{3.2em}}{}{\titlerule*{-}\contentspage}
 % Platform fontset <windows>, <mac>, <adobe>, <times>, <others>
@@ -447,14 +447,13 @@
     urlcolor=red,% color of external links
     bookmarksnumbered=true,% put section numbers in bookmarks
 }
-% Set bibliography entry
-% \ifbibtex%
-%     \setlength{\bibsep}{0.0ex plus 0.2ex minus 0.2ex}% set distance between entries
-% \fi
-% \ifbiber%
-%     \setlength\bibitemsep{0.5\baselineskip}% set distance between entries
-% \fi
-% \renewcommand*{\bibfont}{\small}% set font size for bibliography
+% Macro for adding content link to the table of content and bookmark
+\providecommand{\intotoc}[2][chapter]{%
+    \cleardoublepage% ensure correct page reference
+    \markboth{\MakeUppercase{#2}}{}% set the leftmark
+    \phantomsection% create link in bookmarks
+    \addcontentsline{toc}{#1}{#2}% add content #2 to toc as #1
+}
 % Define different kinds of header and footer for different parts
 \fancypagestyle{frontmatterstyle}{% 前页页眉页脚风格 Front matter header and footer style
     \fancyhf{}
