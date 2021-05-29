@@ -280,3 +280,7 @@ TSWLatexianTemp*
 
 # References
 /References
+
+# RAW data
+*.RAW
+*.mat
